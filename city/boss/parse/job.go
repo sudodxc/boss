@@ -24,6 +24,6 @@ func ParseJob(contents []byte) engine.ParseResult {
 		})
 		//fmt.Printf("jobname:%s ,nextURL:https://www.zhipin.com%s\n", m[2], m[1])
 	}
-	return request
+	return requests
 
 }
